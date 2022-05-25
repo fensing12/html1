@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        li {
+            /*블록, 인라인은 css의 display 속성 , 
+            블록 요소를 수평으로 나열하려면 */
+            display: inline-block;
+            width: 100px;
+        }
+        /*마우스 커서 올리면 바뀌게 하기 border bottom 보더에 값줘서 색 바뀜
+        pointer는 마우스 반응 효과*/
+        li:hover {
+            color: orange;
+            border-bottom:  3px solid orange;
+            cursor: pointer;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul>
+        <li>브랜드</li>
+        <li>메뉴</li>
+        <li>회사소개</li>
+    </ul>
+    
+</body>
+</html>
