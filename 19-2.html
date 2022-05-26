@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /*
+        #first, a 나열
+        #first a descendant 자손선택자 또는 하위선택자
+        #first>a 자식선택자
+        */
+        #first>a{
+        width: 200px;
+        height: 50px;
+        background-color: skyblue;
+        display: inline-block;
+        text-align: center;
+        line-height: 50px; 
+        border-radius: 25px;   
+        border: 3px solid orange;
+        color: white;
+        text-decoration: none;
+    }
+        #last>a {
+            color: red;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="first">
+    <a href="#">세부내용보기</a>
+    </div>
+    <div>
+    <div>세부내용 보기</div>
+    </div>
+    <div id="last">
+        <div><a href="#">세부내용보기</a></div>
+    </div>
+</body>
+</html>
